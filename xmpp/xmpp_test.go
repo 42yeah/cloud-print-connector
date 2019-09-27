@@ -24,8 +24,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/google/cloud-print-connector/notification"
-	"github.com/google/cloud-print-connector/xmpp"
+	"github.com/POTION4/cloud-print-connector/notification"
+	"github.com/POTION4/cloud-print-connector/xmpp"
 )
 
 func TestXMPP_proxyauth(t *testing.T) {

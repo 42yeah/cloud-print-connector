@@ -13,8 +13,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/google/cloud-print-connector/cdd"
-	"github.com/google/cloud-print-connector/log"
+	"github.com/POTION4/cloud-print-connector/cdd"
+	"github.com/POTION4/cloud-print-connector/log"
 )
 
 func TestGetUUID(t *testing.T) {

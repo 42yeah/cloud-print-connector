@@ -10,8 +10,8 @@ import (
 )
 
 import (
-	"github.com/google/cloud-print-connector/fcm"
-	"github.com/google/cloud-print-connector/notification"
+	"github.com/POTION4/cloud-print-connector/fcm"
+	"github.com/POTION4/cloud-print-connector/notification"
 )
 
 func TestFCM_ReceiveNotification(t *testing.T) {

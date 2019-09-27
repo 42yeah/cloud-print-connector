@@ -17,7 +17,7 @@ import (
 	"sync"
 	"unsafe"
 
-	"github.com/google/cloud-print-connector/log"
+	"github.com/POTION4/cloud-print-connector/log"
 )
 
 // TODO: How to add the _printer subtype?

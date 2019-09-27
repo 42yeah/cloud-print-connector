@@ -20,9 +20,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/google/cloud-print-connector/gcp"
-	"github.com/google/cloud-print-connector/lib"
-	"github.com/google/uuid"
+	"github.com/POTION4/cloud-print-connector/gcp"
+	"github.com/POTION4/cloud-print-connector/lib"
+	"github.com/POTION4/uuid"
 	"github.com/urfave/cli"
 
 	"golang.org/x/oauth2"
