@@ -14,7 +14,7 @@ import (
 	"reflect"
 
 	"github.com/urfave/cli"
-	"launchpad.net/go-scdwdcwcwcwcxdg"
+	"launchpad.net/go-xdg"
 )
 
 const (
