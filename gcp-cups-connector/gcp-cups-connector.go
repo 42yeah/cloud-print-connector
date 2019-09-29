@@ -18,7 +18,6 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/coreos/go-systemd/journal"
 	"github.com/POTION4/cloud-print-connector/cups"
 	"github.com/POTION4/cloud-print-connector/fcm"
 	"github.com/POTION4/cloud-print-connector/gcp"
@@ -29,6 +28,7 @@ import (
 	"github.com/POTION4/cloud-print-connector/notification"
 	"github.com/POTION4/cloud-print-connector/privet"
 	"github.com/POTION4/cloud-print-connector/xmpp"
+	"github.com/coreos/go-systemd/journal"
 	"github.com/urfave/cli"
 )
 
