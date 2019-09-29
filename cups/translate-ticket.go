@@ -22,6 +22,10 @@ import (
 var rVendorIDKeyValue = regexp.MustCompile(
 	`^([^\` + internalKeySeparator + `]+)(?:` + internalKeySeparator + `(.+))?$`)
 
+func TranslateTicket() (printer *lib.Printer, ticket *cdd.CloudJobTicket) (map[string]string, error) {
+	return translateTicket(printer, ticket)
+}
+
 // translateTicket converts a CloudJobTicket to a map of options, suitable for a new CUPS print job.
 func translateTicket(printer *lib.Printer, ticket *cdd.CloudJobTicket) (map[string]string, error) {
 	if printer == nil || ticket == nil {
