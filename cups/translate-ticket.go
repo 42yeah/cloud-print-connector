@@ -22,7 +22,7 @@ import (
 var rVendorIDKeyValue = regexp.MustCompile(
 	`^([^\` + internalKeySeparator + `]+)(?:` + internalKeySeparator + `(.+))?$`)
 
-func TranslateTicket() (printer *lib.Printer, ticket *cdd.CloudJobTicket) (map[string]string, error) {
+func TranslateTicket(printer *lib.Printer, ticket *cdd.CloudJobTicket) (map[string]string, error) {
 	return translateTicket(printer, ticket)
 }
 
